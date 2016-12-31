@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A608BEC21E17302800B16F15 /* NSData+GNSData.m in Sources */ = {isa = PBXBuildFile; fileRef = A608BEC11E17302800B16F15 /* NSData+GNSData.m */; };
 		A6EA82EC1E0EC0F100FAE4B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA82EB1E0EC0F100FAE4B5 /* main.m */; };
 		A6EA82EF1E0EC0F100FAE4B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA82EE1E0EC0F100FAE4B5 /* AppDelegate.m */; };
 		A6EA82F21E0EC0F100FAE4B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA82F11E0EC0F100FAE4B5 /* ViewController.m */; };
@@ -16,8 +17,6 @@
 		A6EA83051E0EC0F200FAE4B5 /* GDHLKEnDeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA83041E0EC0F200FAE4B5 /* GDHLKEnDeDemoTests.m */; };
 		A6EA83101E0EC0F200FAE4B5 /* GDHLKEnDeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA830F1E0EC0F200FAE4B5 /* GDHLKEnDeDemoUITests.m */; };
 		A6EA83351E0EC1E000FAE4B5 /* GDHLKEnDe.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA832D1E0EC1E000FAE4B5 /* GDHLKEnDe.m */; };
-		A6EA83361E0EC1E000FAE4B5 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA83301E0EC1E000FAE4B5 /* NSData+Base64.m */; };
-		A6EA83371E0EC1E000FAE4B5 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA83321E0EC1E000FAE4B5 /* NSData+CommonCrypto.m */; };
 		A6EA83381E0EC1E000FAE4B5 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA83341E0EC1E000FAE4B5 /* NSString+Base64.m */; };
 /* End PBXBuildFile section */
 
@@ -39,7 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A66F2DA11E109D0A00718407 /* GDHLKEnDeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDHLKEnDeHeader.h; sourceTree = "<group>"; };
+		A608BEC01E17302800B16F15 /* NSData+GNSData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+GNSData.h"; sourceTree = "<group>"; };
+		A608BEC11E17302800B16F15 /* NSData+GNSData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+GNSData.m"; sourceTree = "<group>"; };
 		A6EA82E71E0EC0F100FAE4B5 /* GDHLKEnDeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDHLKEnDeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6EA82EB1E0EC0F100FAE4B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A6EA82ED1E0EC0F100FAE4B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,10 +58,6 @@
 		A6EA83111E0EC0F200FAE4B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6EA832C1E0EC1E000FAE4B5 /* GDHLKEnDe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDHLKEnDe.h; sourceTree = "<group>"; };
 		A6EA832D1E0EC1E000FAE4B5 /* GDHLKEnDe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDHLKEnDe.m; sourceTree = "<group>"; };
-		A6EA832F1E0EC1E000FAE4B5 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
-		A6EA83301E0EC1E000FAE4B5 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
-		A6EA83311E0EC1E000FAE4B5 /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
-		A6EA83321E0EC1E000FAE4B5 /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
 		A6EA83331E0EC1E000FAE4B5 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
 		A6EA83341E0EC1E000FAE4B5 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -157,13 +153,10 @@
 		A6EA832B1E0EC1E000FAE4B5 /* GDHLKEnDe */ = {
 			isa = PBXGroup;
 			children = (
-				A66F2DA11E109D0A00718407 /* GDHLKEnDeHeader.h */,
 				A6EA832C1E0EC1E000FAE4B5 /* GDHLKEnDe.h */,
 				A6EA832D1E0EC1E000FAE4B5 /* GDHLKEnDe.m */,
-				A6EA832F1E0EC1E000FAE4B5 /* NSData+Base64.h */,
-				A6EA83301E0EC1E000FAE4B5 /* NSData+Base64.m */,
-				A6EA83311E0EC1E000FAE4B5 /* NSData+CommonCrypto.h */,
-				A6EA83321E0EC1E000FAE4B5 /* NSData+CommonCrypto.m */,
+				A608BEC01E17302800B16F15 /* NSData+GNSData.h */,
+				A608BEC11E17302800B16F15 /* NSData+GNSData.m */,
 				A6EA83331E0EC1E000FAE4B5 /* NSString+Base64.h */,
 				A6EA83341E0EC1E000FAE4B5 /* NSString+Base64.m */,
 			);
@@ -307,9 +300,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6EA83351E0EC1E000FAE4B5 /* GDHLKEnDe.m in Sources */,
+				A608BEC21E17302800B16F15 /* NSData+GNSData.m in Sources */,
 				A6EA82F21E0EC0F100FAE4B5 /* ViewController.m in Sources */,
-				A6EA83371E0EC1E000FAE4B5 /* NSData+CommonCrypto.m in Sources */,
-				A6EA83361E0EC1E000FAE4B5 /* NSData+Base64.m in Sources */,
 				A6EA82EF1E0EC0F100FAE4B5 /* AppDelegate.m in Sources */,
 				A6EA82EC1E0EC0F100FAE4B5 /* main.m in Sources */,
 				A6EA83381E0EC1E000FAE4B5 /* NSString+Base64.m in Sources */,
